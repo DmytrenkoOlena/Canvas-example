@@ -40,7 +40,7 @@ function drawLines () {
 
       if (dist <= DIST) {
         context.strokeStyle = '#a961d8'
-        context.lineWidth = (1 - dist / DIST)**2
+        context.lineWidth = (1 - dist / DIST)**5
         context.moveTo(pointA.x, pointA.y)
         context.lineTo(pointB.x, pointB.y)
         context.stroke()
