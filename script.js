@@ -1,6 +1,6 @@
 const NUMBER = 80
 const SPEED = 1
-const DIST = 80
+const DIST = 90
 
 const canvas = document.querySelector('canvas')
 const context = canvas.getContext('2d')
